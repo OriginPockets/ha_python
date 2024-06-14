@@ -442,8 +442,8 @@ def main():
     start(screen)
 
     #BGMの設定
-    pygame.mixer.music.load("music/tetris_bgm.mp3")
-    pygame.mixer.music.play(-1)
+    #pygame.mixer.music.load("music/tetris_bgm.mp3")
+    #pygame.mixer.music.play(-1)
         
     while(1):
         pygame.time.wait(10)
